@@ -5,10 +5,12 @@ __pycache__/
 pyvenv.cfg
 
 # Datos
-data/raw/
-*.csv
-*.json
-*.parquet
+data/raw/          # Ignora toda la carpeta raw
+*.csv              # Ignora .csv en cualquier lado (excepto processed/)
+*.json             # Ignora .json en cualquier lado (excepto processed/)
+*.parquet          # Ignora .parquet en cualquier lado (excepto processed/)
+!data/processed/   # Excepción: trackea toda la carpeta processed
+!data/processed/*  # Excepción: trackea archivos dentro de processed/
 
 # Sistema/IDE
 .DS_Store
