@@ -71,7 +71,7 @@ async def scrapear_comentarios(product_name, api_url):
                     await page.wait_for_selector('article[data-testid="comment-component"]', timeout=10000)
                     
                     await cargar_mas_comentarios(page)
-                    comments = await extraer_datos_comentarios(page)
+                    comments = await extraer_datos_comentarios(page, rating=stars)
                     all_comments.extend(comments)
                     print(f"      → {len(comments)} comentarios")
                     
@@ -110,15 +110,14 @@ async def cargar_mas_comentarios(page, max_attempts=10):
             attempts = 0
             last_count = current_count
 
-async def extraer_datos_comentarios(page):
-    """Extrae datos estructurados de comentarios"""
+async def extraer_datos_comentarios(page, rating):
+    """Extrae datos estructurados de comentarios, asignando calificación desde el filtro"""
     comments = []
     elements = await page.query_selector_all('article[data-testid="comment-component"]')
     
     for element in elements:
         try:
             text = await (await element.query_selector('[data-testid="comment-content-component"]')).inner_text()
-            rating = len(await element.query_selector_all('.ui-review-capability-comments__comment__rating__star'))
             date = await (await element.query_selector('.ui-review-capability-comments__comment__date')).inner_text()
             
             try:
@@ -139,6 +138,7 @@ async def extraer_datos_comentarios(page):
             continue
             
     return comments
+
 
 async def main():
     """Función principal"""
