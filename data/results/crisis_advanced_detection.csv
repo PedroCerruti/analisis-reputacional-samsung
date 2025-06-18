@@ -1,0 +1,9 @@
+producto,periodo,crisis_score,n_signals,signals,rating_mean,sentiment_mean,volatility,engagement_ratio,sentiment_alignment
+Motorola G32,2023-05,5,2,Rating crítico (3.00) | Alta volatilidad (0.471),3.0,0.0,0.4713333333333333,3.0,0.0
+Motorola G32,2024-04,5,2,Rating crítico (3.30) | Alta volatilidad (0.430),3.3,0.065,0.4296969696969697,0.3,-0.08499999999999991
+Motorola G32,2024-05,5,2,Rating crítico (3.00) | Alta volatilidad (0.516),3.0,0.0,0.5163333333333333,1.0,0.0
+Motorola G32,2024-06,5,2,Rating crítico (2.83) | Alta volatilidad (0.413),2.833,0.0,0.4126367807977409,0.16666666666666666,0.08349999999999991
+Motorola G32,2024-08,5,2,Rating crítico (3.25) | Alta volatilidad (0.394),3.25,0.088,0.3944615384615385,0.25,-0.037000000000000005
+Samsung A15,2024-10,5,2,Rating crítico (3.28) | Alta volatilidad (0.422),3.281,0.03,0.42243218530935683,5.625,-0.11050000000000007
+Samsung A15,2024-11,5,2,Rating crítico (2.70) | Alta volatilidad (0.576),2.7,0.02,0.5759259259259258,5.28,0.1699999999999999
+Samsung A15,2024-12,5,2,Rating crítico (3.13) | Alta volatilidad (0.481),3.134,0.023,0.48085513720485,2.343283582089552,-0.04399999999999995

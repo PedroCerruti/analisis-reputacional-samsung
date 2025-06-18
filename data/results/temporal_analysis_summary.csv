@@ -1,0 +1,2 @@
+analysis_date,total_reviews,period_start,period_end,products_analyzed,crises_detected,temporal_periods,avg_rating_last_period,avg_sentiment_last_period,most_volatile_product,correlation_stability
+2025-06-09 12:03:41,1085,2022-12-28,2025-04-30,2,8,42,4.4075,0.026999999999999996,Motorola G32,0.7838665013939345

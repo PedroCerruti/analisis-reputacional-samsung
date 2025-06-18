@@ -1,0 +1,2 @@
+analysis_date,total_reviews,products_analyzed,crisis_periods_detected,crisis_detection_method,samsung_crises,motorola_crises,most_severe_crisis_score,avg_crisis_score
+2025-06-09 12:30:09,1085,2,21,Multi-indicator semantic analysis,9,12,10,5.666666666666667

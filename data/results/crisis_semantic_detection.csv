@@ -1,0 +1,22 @@
+producto,periodo,crisis_score,crisis_type,indicators,rating_mean,rating_change,votes_median,votes_max,engagement_intensity,rating_volatility,n_reviews
+Samsung A15,2024-07,3,Severa,Caída abrupta (-0.82),4.182,-0.8179999999999996,8.0,617,73.0909090909091,0.33500717360114773,11
+Samsung A15,2024-08,8,Severa,Rating crítico (3.62) | Caída abrupta (-0.56) | Alta volatilidad (0.365),3.619,-0.5630000000000002,2.0,94,10.476190476190476,0.3652942801878972,21
+Samsung A15,2024-09,8,Severa,"Rating crítico (3.58) | Alta volatilidad (0.419) | Patrón controversia (R:3.58, V:10.0)",3.581,-0.038000000000000256,10.0,433,26.967741935483872,0.41915666015079583,31
+Samsung A15,2024-10,5,Moderada,Rating crítico (3.28) | Alta volatilidad (0.422),3.281,-0.2999999999999998,1.0,72,5.625,0.42243218530935683,64
+Samsung A15,2024-11,8,Severa,Rating crítico (2.70) | Caída abrupta (-0.58) | Alta volatilidad (0.576),2.7,-0.581,2.0,22,5.28,0.5759259259259258,50
+Samsung A15,2024-12,5,Moderada,Rating crítico (3.13) | Alta volatilidad (0.481),3.134,0.4339999999999997,1.0,19,2.343283582089552,0.48085513720485,67
+Samsung A15,2025-01,5,Moderada,Rating crítico (3.35) | Alta volatilidad (0.372),3.352,0.21799999999999997,0.0,170,4.185185185185185,0.3717183770883055,54
+Samsung A15,2025-02,4,Moderada,Rating crítico (3.47) | Problema masivo (volumen alto + rating bajo),3.469,0.11699999999999999,0.0,7,0.345679012345679,0.3413087345056212,81
+Samsung A15,2025-03,6,Moderada,Rating crítico (3.45) | Alta volatilidad (0.353) | Problema masivo (volumen alto + rating bajo),3.453,-0.016000000000000014,0.0,4,0.24210526315789474,0.3527367506516073,95
+Motorola G32,2023-02,3,Severa,Caída abrupta (-0.60),4.4,-0.5999999999999996,3.0,22,9.8,0.12454545454545454,5
+Motorola G32,2023-05,8,Severa,Rating crítico (3.00) | Caída abrupta (-1.75) | Alta volatilidad (0.471),3.0,-1.75,2.0,8,3.0,0.4713333333333333,4
+Motorola G32,2023-07,8,Severa,Rating crítico (3.53) | Caída abrupta (-0.67) | Alta volatilidad (0.437),3.526,-0.6680000000000001,1.0,64,9.68421052631579,0.4370391378332388,19
+Motorola G32,2023-08,6,Moderada,Rating crítico (3.67) | Engagement anómalo (x1.4) | Problema masivo (volumen alto + rating bajo),3.667,0.14100000000000001,1.0,269,24.59259259259259,0.32097082083446965,27
+Motorola G32,2023-12,4,Moderada,Rating crítico (3.49) | Problema masivo (volumen alto + rating bajo),3.488,-0.3500000000000001,0.0,5,0.2926829268292683,0.28755733944954126,41
+Motorola G32,2024-01,3,Moderada,Rating crítico (3.61),3.609,0.121,0.0,5,0.2608695652173913,0.23247436963147686,23
+Motorola G32,2024-02,5,Moderada,Rating crítico (3.50) | Alta volatilidad (0.355),3.5,-0.10899999999999999,0.0,1,0.16666666666666666,0.35514285714285715,12
+Motorola G32,2024-03,3,Moderada,Rating crítico (3.27),3.273,-0.22699999999999987,0.0,2,0.2727272727272727,0.33730522456461964,11
+Motorola G32,2024-04,5,Moderada,Rating crítico (3.30) | Alta volatilidad (0.430),3.3,0.02699999999999969,0.0,2,0.3,0.4296969696969697,10
+Motorola G32,2024-05,7,Moderada,Rating crítico (3.00) | Engagement anómalo (x1.9) | Alta volatilidad (0.516),3.0,-0.2999999999999998,0.0,4,1.0,0.5163333333333333,6
+Motorola G32,2024-06,5,Moderada,Rating crítico (2.83) | Alta volatilidad (0.413),2.833,-0.16699999999999982,0.0,1,0.16666666666666666,0.4126367807977409,6
+Motorola G32,2024-08,10,Severa,Rating crítico (3.25) | Caída abrupta (-0.55) | Engagement anómalo (x1.8) | Alta volatilidad (0.394),3.25,-0.5499999999999998,0.0,2,0.25,0.3944615384615385,8

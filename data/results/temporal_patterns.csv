@@ -1,0 +1,3 @@
+producto,rating_trend,sentiment_trend,volume_trend,max_rating_drop,max_sentiment_drop,volatility_periods
+Motorola G32,stable,stable,growing,-1.75,-0.111,11
+Samsung A15,declining,stable,growing,-0.8179999999999996,-0.137,9

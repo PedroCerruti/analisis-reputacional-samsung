@@ -1,25 +1,188 @@
-# Entorno Python
-venv/
+# Análisis de Reseñas de Productos - GitIgnore
+
+# =============================================================================
+# DATOS SENSIBLES Y ARCHIVOS GRANDES
+# =============================================================================
+# Datos crudos (pueden ser muy grandes)
+data/raw/*.json
+data/raw/*.csv
+
+# Datos procesados (opcional - comentar si quieres incluirlos)
+# data/processed/*.csv
+
+# =============================================================================
+# PYTHON
+# =============================================================================
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-pyvenv.cfg
+*.py[cod]
+*$py.class
 
-# Datos
-data/raw/          # Ignora toda la carpeta raw
-*.csv              # Ignora .csv en cualquier lado (excepto processed/)
-*.json             # Ignora .json en cualquier lado (excepto processed/)
-*.parquet          # Ignora .parquet en cualquier lado (excepto processed/)
-!data/processed/   # Excepción: trackea toda la carpeta processed
-!data/processed/*  # Excepción: trackea archivos dentro de processed/
+# C extensions
+*.so
 
-# Sistema/IDE
-.DS_Store
-.vscode/
-bin/
-include/
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
 lib/
-share/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Binarios
-chromedriver
-data/raw/
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =============================================================================
+# JUPYTER NOTEBOOKS
+# =============================================================================
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# =============================================================================
+# VISUALIZACIONES Y OUTPUTS
+# =============================================================================
+# Gráficos generados (opcional - comentar si quieres incluirlos)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Archivos temporales de matplotlib
+.matplotlib/
+
+# =============================================================================
+# SISTEMA OPERATIVO
+# =============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# EDITORES E IDEs
+# =============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =============================================================================
+# LOGS Y TEMPORALES
+# =============================================================================
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# =============================================================================
+# ESPECÍFICO DEL PROYECTO
+# =============================================================================
+# Archivos de configuración local
+config.local.py
+.env.local
+
+# Datos de testing personal
+test_data/
+personal_notes.md
+
+# Backups
+*.bak
+*.backup
+
+# Archivos de depuración
+debug/
+debug_*
+
+# Playwright
+playwright-report/
+test-results/

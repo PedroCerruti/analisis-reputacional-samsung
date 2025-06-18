@@ -1,0 +1,14 @@
+producto,periodo,crisis_score,reasons,rating_mean,rating_std,volume
+Motorola G32,2023-05,4,"Rating bajo (3.00), Alta volatilidad (1.41), Bajo volumen (4)",3.0,1.4142135623730951,4
+Motorola G32,2023-12,3,"Rating bajo (3.49), Alta volatilidad (1.00)",3.4878048780487805,1.0030441470721072,41
+Motorola G32,2024-03,3,"Rating bajo (3.27), Alta volatilidad (1.10)",3.272727272727273,1.1037127426019047,11
+Motorola G32,2024-04,3,"Rating bajo (3.30), Alta volatilidad (1.42)",3.3,1.4181364924121767,10
+Motorola G32,2024-05,3,"Rating bajo (3.00), Alta volatilidad (1.55)",3.0,1.5491933384829668,6
+Motorola G32,2024-06,3,"Rating bajo (2.83), Alta volatilidad (1.17)",2.8333333333333335,1.1690451944500122,6
+Motorola G32,2024-08,3,"Rating bajo (3.25), Alta volatilidad (1.28)",3.25,1.2817398889233114,8
+Samsung A15,2024-10,3,"Rating bajo (3.28), Alta volatilidad (1.39)",3.28125,1.3855117672336303,64
+Samsung A15,2024-11,3,"Rating bajo (2.70), Alta volatilidad (1.56)",2.7,1.5551100755055172,50
+Samsung A15,2024-12,3,"Rating bajo (3.13), Alta volatilidad (1.51)",3.1343283582089554,1.5065063174400093,67
+Samsung A15,2025-01,3,"Rating bajo (3.35), Alta volatilidad (1.25)",3.3518518518518516,1.2462382250144124,54
+Samsung A15,2025-02,3,"Rating bajo (3.47), Alta volatilidad (1.18)",3.4691358024691357,1.1841285799384969,81
+Samsung A15,2025-03,3,"Rating bajo (3.45), Alta volatilidad (1.22)",3.4526315789473685,1.2183737072349854,95
