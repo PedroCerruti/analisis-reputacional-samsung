@@ -159,15 +159,16 @@ Este proyecto establece precedente metodológico para análisis reputacional en 
 
 ## 📄 Documentación Adicional
 
-- **Informe no-técnico**: [Caso de Estudio: Análisis Reputacional Samsung vs Motorola](enlace-pendiente) *(próximamente)*
-- **Notebooks comentados**: Documentación inline detallada en cada notebook
-- **Análisis metodológico**: Contenido técnico distribuido en los notebooks del proyecto
+* **[📊 Informe Ejecutivo](https://pedrocerruti.github.io/ecommerce-reputation-analysis-report.pdf)**: Caso de Estudio: Análisis Reputacional Samsung vs Motorola
+* **Notebooks comentados**: Documentación inline detallada en cada notebook
+* **Análisis metodológico**: Contenido técnico distribuido en los notebooks del proyecto
 
 ## 📧 Contacto
 
 **Pedro Cerruti**  
-📧 Email: [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)  
-💼 LinkedIn: [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil)  
+📧 Email: [pedrocerruti@gmail.com](mailto:pedrocerruti@gmail.com)  
+💼 LinkedIn: [linkedin.com/in/pedrocerruti](https://linkedin.com/in/pedrocerruti)  
+🌐 Portfolio: [pedrocerruti.github.io](https://pedrocerruti.github.io)
 
 Para consultas sobre metodología, replicación o adaptación a otros contextos, no dudes en contactarme.
 
