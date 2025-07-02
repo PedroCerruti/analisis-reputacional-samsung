@@ -1,27 +1,8 @@
-# Análisis de Reseñas de Productos - GitIgnore
-
-# =============================================================================
-# DATOS SENSIBLES Y ARCHIVOS GRANDES
-# =============================================================================
-# Datos crudos (pueden ser muy grandes)
-data/raw/*.json
-data/raw/*.csv
-
-# Datos procesados (opcional - comentar si quieres incluirlos)
-# data/processed/*.csv
-
-# =============================================================================
-# PYTHON
-# =============================================================================
-# Byte-compiled / optimized / DLL files
+# Archivos de Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -35,36 +16,15 @@ parts/
 sdist/
 var/
 wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
-# PyInstaller
-*.manifest
-*.spec
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Virtual environments
+# Entornos virtuales
 .env
 .venv
 env/
@@ -73,116 +33,30 @@ ENV/
 env.bak/
 venv.bak/
 
-# =============================================================================
-# JUPYTER NOTEBOOKS
-# =============================================================================
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Datos raw (muy pesados para GitHub)
+data/raw/
 
-# IPython
-profile_default/
-ipython_config.py
+# Outputs - Solo incluir visualizaciones clave
+outputs/
+!outputs/key_visualizations/
+!outputs/key_visualizations/*.png
+!outputs/key_visualizations/README.md
 
-# =============================================================================
-# VISUALIZACIONES Y OUTPUTS
-# =============================================================================
-# Gráficos generados (opcional - comentar si quieres incluirlos)
-*.png
-*.jpg
-*.jpeg
-*.pdf
-*.svg
-
-# Archivos temporales de matplotlib
-.matplotlib/
-
-# =============================================================================
-# SISTEMA OPERATIVO
-# =============================================================================
-# macOS
+# Archivos de sistema
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Windows
+.vscode/
+.idea/
+*.swp
+*.swo
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-$RECYCLE.BIN/
 
-# Linux
-*~
-.fuse_hidden*
-.directory
-.Trash-*
-.nfs*
-
-# =============================================================================
-# EDITORES E IDEs
-# =============================================================================
-# VSCode
-.vscode/
-*.code-workspace
-
-# PyCharm
-.idea/
-*.iml
-
-# Sublime Text
-*.sublime-project
-*.sublime-workspace
-
-# Vim
-*.swp
-*.swo
-*~
-
-# Emacs
-*~
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-*.elc
-auto-save-list
-tramp
-.\#*
-
-# =============================================================================
-# LOGS Y TEMPORALES
-# =============================================================================
 # Logs
 *.log
 logs/
 
-# Temporary files
-*.tmp
-*.temp
-temp/
-tmp/
-
-# =============================================================================
-# ESPECÍFICO DEL PROYECTO
-# =============================================================================
-# Archivos de configuración local
-config.local.py
-.env.local
-
-# Datos de testing personal
-test_data/
-personal_notes.md
-
-# Backups
-*.bak
-*.backup
-
-# Archivos de depuración
-debug/
-debug_*
-
-# Playwright
-playwright-report/
-test-results/
+# Archivos temporales del proyecto
+test_basic.py
+*.code-workspace
+Reporte/
